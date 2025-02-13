@@ -51,7 +51,7 @@ public class StudentController {
     public Student studentRequestVariable(@RequestParam int id,
                                           @RequestParam String firstName,
                                           @RequestParam String lastName){
-        return new Student(id,"vaibhav","Dharmik");
+        return new Student(id,firstName,lastName);
     }
 
 
